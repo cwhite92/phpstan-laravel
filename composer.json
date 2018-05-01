@@ -1,5 +1,5 @@
 {
-    "name": "weebly/phpstan-laravel",
+    "name": "cwhite92/phpstan-laravel",
     "license": "BSD-2-Clause",
     "description": "Laravel plugins for PHPStan",
     "type": "library",
@@ -7,11 +7,15 @@
         {
             "name": "Chris Leppanen",
             "email": "chris.leppanen@weebly.com"
+        },
+        {
+          "name": "Chris White",
+          "email": "chris@cwhite.me"
         }
     ],
     "require": {
-        "laravel/framework": "5.5.* || 5.6.*",
-        "phpstan/phpstan": "^0.9"
+        "laravel/framework": "^5.1",
+        "phpstan/phpstan": "^0.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5.2"
